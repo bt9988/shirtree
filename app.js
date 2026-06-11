@@ -1,43 +1,44 @@
 async function loadShirts() {
 
-    const response = await fetch("shirts.json");
-
+    const response = await fetch('shirts.json');
     const shirts = await response.json();
 
     const container =
-        document.getElementById("products");
+        document.getElementById('products');
 
     shirts.forEach(shirt => {
 
-        container.innerHTML += `
+        const card = document.createElement('article');
 
-            <article class="card">
+        card.className = 'card';
 
-                <img
-                    src="${shirt.image}"
-                    alt="${shirt.title}"
-                    class="card-image"
+        card.innerHTML = `
+            <img
+                src="${shirt.image}"
+                alt="${shirt.title}"
+                class="card-image"
+            >
+
+            <div class="card-content">
+
+                <h2 class="card-title">
+                    ${shirt.title}
+                </h2>
+
+                <a
+                    href="${shirt.amazon}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="card-link"
                 >
+                    View Design
+                </a>
 
-                <div class="card-content">
-
-                    <h2 class="card-title">
-                        ${shirt.title}
-                    </h2>
-
-                    <a
-                        href="${shirt.amazon}"
-                        target="_blank"
-                        class="card-link"
-                    >
-                        View on Amazon
-                    </a>
-
-                </div>
-
-            </article>
-
+            </div>
         `;
+
+        container.appendChild(card);
+
     });
 
 }
