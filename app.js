@@ -31,7 +31,7 @@ async function loadShirts() {
                     rel="noopener noreferrer"
                     class="card-link"
                 >
-                    View Design
+                    View on Amazon
                 </a>
 
             </div>
