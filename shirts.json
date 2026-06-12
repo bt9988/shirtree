@@ -1,22 +1,22 @@
 [
     {
         "title": "Check The Comps",
-        "image": "images/check-the-comps.jpg",
-        "amazon": "https://amazon.com/dp/XXXXXXXX"
+        "image": "images/check-the-comps.jpeg",
+        "amazon": "https://amzn.to/3S47uWu"
+    },
+    {
+        "title": "Card Show Survivor",
+        "image": "images/card-show-survivor.jpeg",
+        "amazon": "https://amzn.to/3S37ead"
     },
     {
         "title": "Card Show Addict",
-        "image": "images/card-show-addict.jpg",
-        "amazon": "https://amazon.com/dp/YYYYYYYY"
-    },
-    {
-        "title": "Send It To The Slab",
-        "image": "images/send-it-to-the-slab.jpg",
-        "amazon": "https://amazon.com/dp/ZZZZZZZZ"
+        "image": "images/card-show-addict.jpeg",
+        "amazon": "https://amzn.to/449SNDT"
     },
     {
         "title": "Just One More Pack",
-        "image": "images/just-one-more-pack.jpg",
-        "amazon": "https://amazon.com/dp/AAAAAAAA"
+        "image": "images/just-one-more-pack.jpeg",
+        "amazon": "https://amzn.to/3QktXy3"
     }
 ]
